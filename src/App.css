@@ -1,0 +1,989 @@
+html {
+  margin: 0 auto;
+  max-width: 100%;
+  font-size: 18px;
+}
+
+@media (min-width: 1401px) {
+  .menuMobile {
+    display: none !important;
+  }
+
+  .menuWeb {
+    display: block !important;
+  }
+
+  .menuContainer {
+    width: 60%;
+  }
+
+  .menuHeader {
+    margin-top: 14px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 22px;
+  }
+
+  .menuHeaderTimes {
+    margin-top: -40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+
+  .HeaderContainer {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .newsHeader {
+    position: relative;
+    z-index: 999;
+    width: 100%;
+    height: 40px;
+    background-color: #FEFFD8;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Header__nav {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 18px;
+  }
+
+  .Header {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 22px;
+  }
+
+  .Footer {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 12px;
+  }
+
+  .hoursDay {
+    font-size: 14px;
+    margin-top: -16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footerRow {
+    width: 460px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .locationImage {
+    width: 200px;
+  }
+
+  .locationText {
+    font-size: 14px;
+    margin-top: -10px;
+  }
+
+  .gallerySize {
+    width: 100%;
+    margin-top: 12px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .menuMobile {
+    display: none !important;
+  }
+
+  .menuWeb {
+    display: block !important;
+  }
+
+  .menuContainer {
+    width: 70%;
+  }
+
+  .menuHeader {
+    margin-top: 12px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 22px;
+  }
+
+  .menuHeaderTimes {
+    margin-top: -40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+
+  .HeaderContainer {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .newsHeader {
+    position: relative;
+    z-index: 999;
+    width: 100%;
+    height: 40px;
+    background-color: #FEFFD8;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Header__nav {
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 18px;
+  }
+
+  .Header {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 22px;
+  }
+
+  .Footer {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 12px;
+  }
+
+  .hoursDay {
+    font-size: 14px;
+    margin-top: -16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footerRow {
+    width: 420px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .locationImage {
+    width: 200px;
+  }
+
+  .locationText {
+    font-size: 14px;
+    margin-top: -10px;
+  }
+
+  .gallerySize {
+    width: 90%;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .menuMobile {
+    display: none !important;
+  }
+
+  .menuWeb {
+    display: block !important;
+  }
+
+  .menuContainer {
+    width: 85%;
+  }
+
+  .menuHeader {
+    margin-top: 12px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 22px;
+  }
+
+  .menuHeaderTimes {
+    margin-top: -40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+
+  .HeaderContainer {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .newsHeader {
+    position: relative;
+    z-index: 999;
+    width: 100%;
+    height: 34px;
+    font-size: 16px;
+    background-color: #FEFFD8;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Header__nav {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 16px;
+  }
+
+  .Header {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+  }
+
+  .Footer {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 13px;
+    color: white;
+    margin-bottom: 12px;
+  }
+
+  .hoursDay {
+    font-size: 13px;
+    margin-top: -16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footerRow {
+    width: 360px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .locationImage {
+    width: 150px;
+  }
+
+  .locationText {
+    font-size: 13px;
+    margin-top: -10px;
+  }
+
+  .gallerySize {
+    width: 80%;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .menuMobile {
+    display: none !important;
+  }
+
+  .menuWeb {
+    display: block !important;
+  }
+
+  .menuContainer {
+    width: 85%;
+  }
+
+  .menuHeader {
+    margin-top: 6px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+  }
+
+  .menuHeaderTimes {
+    margin-top: -36px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+
+  .HeaderContainer {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .newsHeader {
+    position: relative;
+    z-index: 999;
+    width: 100%;
+    height: 30px;
+    font-size: 14px;
+    background-color: #FEFFD8;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Header__nav {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 16px;
+  }
+
+  html {
+    margin: 0 auto;
+    max-width: 100%;
+    font-size: 14px;
+  }
+
+  .Header {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+  }
+
+  .Footer {
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 13px;
+    color: white;
+    margin-bottom: 12px;
+  }
+
+  .hoursDay {
+    font-size: 13px;
+    margin-top: -16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footerRow {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .locationImage {
+    width: 150px;
+  }
+
+  .locationText {
+    font-size: 13px;
+    margin-top: -10px;
+  }
+
+  .gallerySize {
+    width: 70%;
+    margin-top: 8px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .menuMobile {
+    display: none !important;
+  }
+
+  .menuWeb {
+    display: block !important;
+  }
+
+  .menuContainer {
+    width: 90%;
+  }
+
+  .menuHeader {
+    margin-top: 4px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+  }
+
+  .menuHeaderTimes {
+    margin-top: -30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+
+  .HeaderContainer {
+    position: relative;
+    width: 100%;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .newsHeader {
+    position: relative;
+    z-index: 999;
+    width: 100%;
+    height: 24px;
+    font-size: 12px;
+    background-color: #FEFFD8;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Header__nav {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 12px;
+  }
+
+  html {
+    margin: 0 auto;
+    max-width: 100%;
+    font-size: 12px;
+  }
+
+  .Header {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+  }
+
+  .Footer {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 12px;
+    color: white;
+    margin-bottom: 12px;
+  }
+
+  .hoursDay {
+    font-size: 12px;
+    margin-top: -16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footerRow {
+    width: 270px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .locationImage {
+    width: 150px;
+  }
+
+  .locationText {
+    font-size: 11px;
+    margin-top: -10px;
+  }
+
+  .gallerySize {
+    width: 70%;
+    margin-top: 6px;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .menuWeb {
+    display: none !important;
+  }
+
+  .menuMobile {
+    display: block !important;
+  }
+
+  .menuContainer {
+    width: 90%;
+  }
+
+  .menuHeader {
+    margin-top: 4px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+  }
+
+  .menuHeaderTimes {
+    margin-top: -30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+
+  .newsHeader {
+    display: none !important;
+    position: relative;
+    z-index: 999;
+    width: 100%;
+    height: 24px;
+    font-size: 12px;
+    background-color: #FEFFD8;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  html {
+    margin: 0 auto;
+    max-width: 100%;
+    font-size: 16px;
+  }
+
+  .HeaderContainer {
+    position: relative;
+    width: 100%;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 1);
+  }
+
+  .Header {
+    margin-top: -10px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 24px;
+  }
+
+  .Header__nav {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .homeImage {
+    margin: 0 auto !important;
+    z-index: -999;
+    width: 100%;
+  }
+
+  .Footer {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 12px;
+    color: white;
+    margin-bottom: 12px;
+  }
+
+  .footerRow {
+    display: none !important;
+    visibility: hidden;
+    width: 220px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .FooterCredits {
+    width: 100%;
+    height: 60px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .locationImage {
+    display: none;
+    width: 150px;
+  }
+
+  .locationText {
+    font-size: 14px;
+    margin-top: -20px;
+  }
+
+  .locationContainer {
+    width: 50% !important;
+    margin: 0 auto;
+    font-size: 14px;
+  }
+
+  .gallerySize {
+    width: 100%;
+    margin-top: 6px;
+  }
+
+  .column {
+    width: 90% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hoursContainer {
+    margin: 0 auto;
+    width: 50% !important;
+    font-size: 14px;
+  }
+
+  .hoursDay {
+    font-size: 14px;
+    margin-top: -16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .menuTimes {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .menuTimesContent {
+    margin: 0 auto !important;
+    width: 90% !important;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .menuColumnDescription {
+    display: none !important;
+    max-width: 65%;
+    color: #FEFFD8;
+  }
+
+  .menuRow {
+    width: 100%;
+    display: flex;
+    flex-direction: column !important;
+  }
+
+  .menuSection {
+    width: 100% !important;
+    margin-top: -20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .menuSectionTitle {
+    width: 100% !important;
+  }
+  
+  .menuTimesSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1.5px solid white;
+    margin-top: 24px;
+    font-size: 13px;
+  }
+
+  .br {
+    display: none !important;
+  }
+
+  .menuContainerThin {
+    width: 90% !important;
+  }
+
+  .statementText {
+    text-align: left !important;
+    width: 100% !important;
+  }
+
+  .menuSpacing {
+    margin-bottom: 0px !important;
+  }
+
+}
+
+.HeaderClicker {
+  display: block;
+}
+
+.HeaderClicker a {
+  text-decoration: none;
+  color: white;
+}
+
+.HeaderClicker a:hover {
+  text-decoration: none;
+  color: #FEFFD8;
+}
+
+.FooterContainer {
+  position: relative;
+  width: 100%;
+  background-color: rgba(0,0,0, 0.8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.FooterCredits {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.FooterCreditsText {
+  margin-bottom: -16px;
+  font-size: 10px;
+  color: white;
+}
+
+.footerLink {
+  color: #FEFFD8;
+  margin-top: -14px;
+}
+
+.footerLink a {
+  text-decoration: none;
+  color: #FEFFD8;
+}
+
+.footerColumn2 {
+  margin-top: -16px;
+}
+
+.homeImage {
+  z-index: -999;
+  width: 100%;
+  margin-top: -100px;
+}
+
+.hoursContainer {
+  width: 180px;
+}
+
+.menuBackground {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.menuContainerThin {
+  width: 20%;
+}
+
+.menuRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menuSectionTitle {
+  width: 40%;
+}
+
+.menuSingleColumn {
+}
+
+.menuSingleSectionTitle {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menuSection {
+  width: 100%;
+  margin-top: -20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menuSection1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: -14px;
+}
+
+.menuRow1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menuColumn {
+  margin-bottom: 20px;
+}
+
+.menuColumnDescription {
+  max-width: 65%;
+  color: #FEFFD8;
+}
+
+.menuSpacing {
+  margin-bottom: 40px;
+}
+
+.menuTimes {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.menuTimesContent {
+  margin-top: 30px;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menuTimesSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1.5px solid white;
+  margin-top: 24px;
+}
+
+.menuTimesSection a {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+.menuTimesSection a:hover {
+  color: black;
+  background-color: #FEFFD8;
+}
+
+.menuBackgroundColor {
+  width: 100%;
+  background-color: rgba(0,0,0,0.9);
+}
+
+.locationContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.statementText {
+  text-align: justify;
+  width: 60%;
+}
+
+.contactText {
+  text-align: justify;
+  width: 100%;
+}
+
+.yellowText {
+  color: #FEFFD8; 
+}
+
+.yellowText a {
+  text-decoration: none;
+  color: #FEFFD8;
+}
+
+.whiteTelephone {
+  margin-top: -14px;
+  margin-bottom: 8px;
+}
+
+.whiteTelephone a {
+  text-decoration: none;
+  color: white;
+}
