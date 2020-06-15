@@ -3,44 +3,24 @@ import ImageGallery from 'react-image-gallery';
 
 const images = [
   {
-    original: 'https://picsum.photos/id/1018/1000/600/',
-    thumbnail: 'https://picsum.photos/id/1018/250/150/',
+    original: '/dish1-1000.jpg',
+    thumbnail: '/dish1-250.jpg',
   },
   {
-    original: 'https://picsum.photos/id/1015/1000/600/',
-    thumbnail: 'https://picsum.photos/id/1015/250/150/',
+    original: '/bar-1000.jpg',
+    thumbnail: '/bar-250.jpg',
   },
   {
-    original: 'https://picsum.photos/id/1019/1000/600/',
-    thumbnail: 'https://picsum.photos/id/1019/250/150/',
+    original: '/front-1000.jpg',
+    thumbnail: '/front-250.jpg',
   },
   {
-    original: 'https://picsum.photos/id/1020/1000/600/',
-    thumbnail: 'https://picsum.photos/id/1020/250/150/',
+    original: '/back-1000.jpg',
+    thumbnail: '/back-250.jpg',
   },
   {
-    original: 'https://picsum.photos/id/1080/1000/600/',
-    thumbnail: 'https://picsum.photos/id/1080/250/150/',
-  },
-  {
-    original: 'https://picsum.photos/id/1040/1000/600/',
-    thumbnail: 'https://picsum.photos/id/1040/250/150/',
-  },
-  {
-    original: 'https://picsum.photos/id/1050/1000/600/',
-    thumbnail: 'https://picsum.photos/id/1050/250/150/',
-  },
-  {
-    original: 'https://picsum.photos/id/231/1000/600/',
-    thumbnail: 'https://picsum.photos/id/231/250/150/',
-  },
-  {
-    original: 'https://picsum.photos/id/1023/1000/600/',
-    thumbnail: 'https://picsum.photos/id/1023/250/150/',
-  },
-  {
-    original: 'https://picsum.photos/id/1035/1000/600/',
-    thumbnail: 'https://picsum.photos/id/1035/250/150/',
+    original: '/restaurant-1000.jpg',
+    thumbnail: '/restaurant-250.jpg',
   },
 ];
 

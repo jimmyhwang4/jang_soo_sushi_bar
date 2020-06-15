@@ -6,7 +6,9 @@ function MenuContent() {
 
             <div className="menuRow">
                 <div className="menuSectionTitle">
-                    <h2>Appetizers</h2>
+                    <div className="mobileTitle">
+                        <h2>Appetizers</h2>
+                    </div>
                     <div className="menuSection">
                         <div className="menuColumn">
                             <p>Oyster (6 pieces)</p>
@@ -27,7 +29,9 @@ function MenuContent() {
                     </div>
                 </div>
                 <div className="menuSectionTitle">
-                    <h2>Noodles</h2>
+                    <div className="mobileTitle">
+                        <h2>Noodles</h2>
+                    </div>
                     <div className="menuSection">
                         <div className="menuColumn">
                             <p>Buckwheat Cold Noodle</p>
@@ -47,7 +51,9 @@ function MenuContent() {
 
             <div className="menuRow">
                 <div className="menuSectionTitle">
-                    <h2>Hot Soup</h2>
+                    <div className="mobileTitle">
+                        <h2>Hot Soup</h2>
+                    </div>
                     <div className="menuSection">
                         <div className="menuColumn">
                             <p>Combination Fish Soup (Spicy)</p>
@@ -68,7 +74,9 @@ function MenuContent() {
                     </div>
                 </div>
                 <div className="menuSectionTitle">
-                    <h2>Broiled Fish</h2>
+                    <div className="mobileTitle">
+                        <h2>Broiled Fish</h2>
+                    </div>
                     <div className="menuSection">
                         <div className="menuColumn">
                             <p>Broiled Salmon with Tempura</p>
@@ -151,7 +159,9 @@ function MenuContent() {
 
             <div className="menuRow">
                 <div className="menuSectionTitle">
-                    <h2>Sushi Combination</h2>
+                    <div className="mobileTitle">
+                        <h2>Sushi Combination</h2>
+                    </div>
                     <div className="menuSection">
                         <div className="menuColumn">
                             <p>Small (11 pieces)</p>
@@ -166,7 +176,9 @@ function MenuContent() {
                     </div>
                 </div>
                 <div className="menuSectionTitle">
-                    <h2>Roll Combination</h2>
+                    <div className="mobileTitle">
+                        <h2>Roll Combination</h2>
+                    </div>
                     <div className="menuSection">
                         <div className="menuColumn">
                             <p>California Roll, Spicy Tuna Roll, & Crunch Roll</p>

@@ -3,7 +3,9 @@ import React from "react";
 function Hours() {
     return (
         <div className="hoursContainer">
-            <h3>HOURS</h3>
+            <div className="mobileTitle">
+                <h3>HOURS</h3>
+            </div>
             <div className="hoursDay">
                 <p>MON</p>
                 <p>CLOSED</p>

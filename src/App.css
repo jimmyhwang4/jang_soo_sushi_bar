@@ -41,7 +41,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-image: url("/footer.jpg");
   }
 
   .newsHeader {
@@ -109,7 +109,7 @@ html {
   }
 
   .gallerySize {
-    width: 100%;
+    width: 70%;
     margin-top: 12px;
   }
 }
@@ -151,7 +151,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-image: url("/footer.jpg");
   }
 
   .newsHeader {
@@ -219,8 +219,12 @@ html {
   }
 
   .gallerySize {
-    width: 90%;
+    width: 70%;
     margin-top: 10px;
+  }
+
+  .menuContainerThin {
+    width: 25% !important;
   }
 }
 
@@ -261,7 +265,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-image: url("/footer.jpg");
   }
 
   .newsHeader {
@@ -313,6 +317,10 @@ html {
     justify-content: space-between;
   }
 
+  .hoursContainer {
+    width: 170px !important;
+  }
+
   .footerRow {
     width: 360px;
     display: flex;
@@ -330,8 +338,12 @@ html {
   }
 
   .gallerySize {
-    width: 80%;
+    width: 70%;
     margin-top: 10px;
+  }
+
+  .menuContainerThin {
+    width: 30% !important;
   }
 }
 
@@ -372,7 +384,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-image: url("/footer.jpg");
   }
 
   .newsHeader {
@@ -417,17 +429,21 @@ html {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-size: 13px;
+    font-size: 12px;
     color: white;
     margin-bottom: 12px;
   }
 
   .hoursDay {
-    font-size: 13px;
+    font-size: 12px;
     margin-top: -16px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  }
+
+  .hoursContainer {
+    width: 150px !important;
   }
 
   .footerRow {
@@ -449,6 +465,10 @@ html {
   .gallerySize {
     width: 70%;
     margin-top: 8px;
+  }
+
+  .menuContainerThin {
+    width: 30% !important;
   }
 
 }
@@ -490,7 +510,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-image: url("/footer.jpg");
   }
 
   .newsHeader {
@@ -535,17 +555,21 @@ html {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-size: 12px;
+    font-size: 11px;
     color: white;
-    margin-bottom: 12px;
+    margin-bottom: 11px;
   }
 
   .hoursDay {
-    font-size: 12px;
+    font-size: 11px;
     margin-top: -16px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  }
+
+  .hoursContainer {
+    width: 150px !important;
   }
 
   .footerRow {
@@ -556,7 +580,7 @@ html {
   }
 
   .locationImage {
-    width: 150px;
+    width: 140px;
   }
 
   .locationText {
@@ -567,6 +591,138 @@ html {
   .gallerySize {
     width: 70%;
     margin-top: 6px;
+  }
+
+  .menuContainerThin {
+    width: 30% !important;
+  }
+
+}
+
+@media (max-width: 650px) {
+  .menuMobile {
+    display: none !important;
+  }
+
+  .menuWeb {
+    display: block !important;
+  }
+
+  .menuContainer {
+    width: 90%;
+  }
+
+  .menuHeader {
+    margin-top: 4px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+  }
+
+  .menuHeaderTimes {
+    margin-top: -30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+
+  .HeaderContainer {
+    position: relative;
+    width: 100%;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/footer.jpg");
+  }
+
+  .newsHeader {
+    display: none !important;
+    position: relative;
+    z-index: 999;
+    width: 100%;
+    height: 24px;
+    font-size: 12px;
+    background-color: #FEFFD8;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Header__nav {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 10px;
+  }
+
+  html {
+    margin: 0 auto;
+    max-width: 100%;
+    font-size: 10px;
+  }
+
+  .Header {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+  }
+
+  .Footer {
+    display: none !important;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 10px;
+    color: white;
+    margin-bottom: 10px;
+  }
+
+  .hoursDay {
+    font-size: 10px;
+    margin-top: -16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .hoursContainer {
+    width: 150px !important;
+  }
+
+  .footerRow {
+    width: 270px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .locationImage {
+    width: 140px;
+  }
+
+  .locationText {
+    font-size: 11px;
+    margin-top: -10px;
+  }
+
+  .gallerySize {
+    width: 70%;
+    margin-top: 6px;
+  }
+
+  .menuContainerThin {
+    width: 35% !important;
   }
 
 }
@@ -625,7 +781,7 @@ html {
     position: relative;
     width: 100%;
     height: 120px;
-    background-color: rgba(0, 0, 0, 1);
+    background-image: url("/footer.jpg");
   }
 
   .Header {
@@ -677,8 +833,8 @@ html {
   }
 
   .locationImage {
-    display: none;
-    width: 150px;
+    width: 100%;
+    margin-bottom: 14px;
   }
 
   .locationText {
@@ -687,13 +843,13 @@ html {
   }
 
   .locationContainer {
-    width: 50% !important;
+    width: 70% !important;
     margin: 0 auto;
     font-size: 14px;
   }
 
   .gallerySize {
-    width: 100%;
+    width: 99%;
     margin-top: 6px;
   }
 
@@ -706,8 +862,14 @@ html {
 
   .hoursContainer {
     margin: 0 auto;
-    width: 50% !important;
+    width: 70% !important;
     font-size: 14px;
+  }
+
+  .mobileTitle {
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
 
   .hoursDay {
@@ -805,6 +967,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url("/footer.jpg");
 }
 
 .FooterCredits {
@@ -839,7 +1002,6 @@ html {
 .homeImage {
   z-index: -999;
   width: 100%;
-  margin-top: -100px;
 }
 
 .hoursContainer {
@@ -918,7 +1080,7 @@ html {
 }
 
 .menuTimesContent {
-  margin-top: 30px;
+  margin-top: 16px;
   width: 60%;
   display: flex;
   justify-content: space-around;
@@ -946,6 +1108,12 @@ html {
 .menuBackgroundColor {
   width: 100%;
   background-color: rgba(0,0,0,0.9);
+}
+
+.homeBackgroundColor {
+  width: 100%;
+  z-index: -999;
+  margin-bottom: -4px;
 }
 
 .locationContainer {
