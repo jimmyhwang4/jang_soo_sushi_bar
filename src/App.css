@@ -945,6 +945,16 @@ html {
     margin-bottom: 0px !important;
   }
 
+  .FooterContainer {
+    position: relative;
+    width: 100%;
+    background-color: rgba(0,0,0, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("/footer-mobile.jpg") !important;
+  }
+
 }
 
 .HeaderClicker {
@@ -1108,7 +1118,7 @@ html {
 
 .menuBackgroundColor {
   width: 100%;
-  background-color: rgba(0,0,0,0.9);
+  background-image: url("/flower-3.jpg");
 }
 
 .homeBackgroundColor {
@@ -1134,7 +1144,6 @@ html {
 }
 
 .contactText {
-  text-align: justify;
   width: 100%;
 }
 
