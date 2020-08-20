@@ -27,7 +27,7 @@ function Header() {
             </div>
 
             <div className="newsHeader">
-                <p>Due to COVID-19, we are currently only providing take-outs. Please call (562) 924-2498 to order.</p>
+                <p>Due to COVID-19, we are currently only providing outdoor dining and take-outs. Please call (562) 924-2498.</p>
             </div>
             
         </div>

@@ -26,9 +26,11 @@ function Contact() {
                         <p><br></br></p>
                         <p>Jang Soo Sushi Bar</p>
                         <div className="yellowText">
+                            <a href="https://www.google.com/maps/place/Jang+Soo+Sushi+Bar+Restaurant/@33.8336871,-118.0705251,14.72z/data=!4m5!3m4!1s0x0:0x5414563e9a071725!8m2!3d33.8319322!4d-118.0636317" target="_blank" rel="noopener noreferrer">
                             <p>12591 E Carson Street<br>
                             </br>
                             Hawaiian Gardens, CA 90716</p>
+                            </a>
                         <p><br></br></p>
                         </div>
                     </div>

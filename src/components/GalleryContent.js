@@ -3,8 +3,19 @@ import ImageGallery from 'react-image-gallery';
 
 const images = [
   {
+    original: '/bento1-1000.jpg',
+    thumbnail: '/bento1-250.jpg',
+    description: 'chicken teriyaki special bento box',
+  },
+  {
+    original: '/bento2-1000.jpg',
+    thumbnail: '/bento2-250.jpg',
+    description: 'salmon teriyaki special bento box',
+  },
+  {
     original: '/dish1-1000.jpg',
     thumbnail: '/dish1-250.jpg',
+    description: 'assorted sushi',
   },
   {
     original: '/bar-1000.jpg',
