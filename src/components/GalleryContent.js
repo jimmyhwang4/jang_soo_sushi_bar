@@ -3,19 +3,44 @@ import ImageGallery from 'react-image-gallery';
 
 const images = [
   {
+    original: '/sashimi-combo-large-1000.jpg',
+    thumbnail: '/sashimi-combo-large-250.jpg',
+    description: 'sashimi combo (large)',
+  },
+  {
+    original: '/sashimi-combo-medium-1000.jpg',
+    thumbnail: '/sashimi-combo-medium-250.jpg',
+    description: 'sashimi combo (medium)',
+  },
+  {
+    original: '/sashimi-combo-small-1000.jpg',
+    thumbnail: '/sashimi-combo-small-250.jpg',
+    description: 'sashimi combo (small)',
+  },
+  {
+    original: '/sashimi-combo-mini-1000.jpg',
+    thumbnail: '/sashimi-combo-mini-250.jpg',
+    description: 'sashimi combo (mini)',
+  },
+  {
+    original: '/halibut-combo-medium-1000.jpg',
+    thumbnail: '/halibut-combo-medium-250.jpg',
+    description: 'live halibut special (medium)',
+  },
+  {
     original: '/bento1-1000.jpg',
     thumbnail: '/bento1-250.jpg',
     description: 'chicken teriyaki special bento box',
   },
   {
-    original: '/bento2-1000.jpg',
-    thumbnail: '/bento2-250.jpg',
-    description: 'salmon teriyaki special bento box',
+    original: '/sushi-combo-14pc-1000.jpg',
+    thumbnail: '/sushi-combo-14pc-250.jpg',
+    description: 'sushi combo (medium)',
   },
   {
-    original: '/dish1-1000.jpg',
-    thumbnail: '/dish1-250.jpg',
-    description: 'assorted sushi',
+    original: '/chirashi-bowl-1000.jpg',
+    thumbnail: '/chirashi-bowl-250.jpg',
+    description: 'chirashi bowl',
   },
   {
     original: '/bar-1000.jpg',
