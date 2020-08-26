@@ -15,7 +15,7 @@ const images = [
   {
     original: '/sashimi-combo-small-1000.jpg',
     thumbnail: '/sashimi-combo-small-250.jpg',
-    description: 'sashimi combo (small)',
+    description: 'sashimi combo (medium)',
   },
   {
     original: '/sashimi-combo-mini-1000.jpg',
