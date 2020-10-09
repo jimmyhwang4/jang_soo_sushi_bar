@@ -8,7 +8,7 @@ function Hours() {
             </div>
             <div className="hoursDay">
                 <p>MON</p>
-                <p>CLOSED</p>
+                <p>11:30AM - 9:30PM</p>
             </div>
             <div className="hoursDay">
                 <p>TUE</p>
