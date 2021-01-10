@@ -23,7 +23,7 @@ function DinnerMenuContent() {
                         </div>
                         <div className="menuColumn">
                             <div className="menuSpacing">
-                                <p>$17.95</p>
+                                <p>$18.95</p>
                             </div>
                         </div>
                     </div>
@@ -35,24 +35,40 @@ function DinnerMenuContent() {
                     <h2>Rice Bowls</h2>
                     <div className="menuSection">
                         <div className="menuColumn">
-                            <p>Assorted Raw Fish over Rice</p>
-                            <p>Abalone Porridge</p>
-                            <p>Fish Cake Soup with Rice</p>
+                            <p>Tonkatsu Plate</p>
+                            <p>Sashimi Salad with Rice</p>
+                            <p>Porridge with Abalone</p>
                             <p>Freshwater Eel Teriyaki Bowl</p>
-                            <p>Assorted Fish Roe with Uni</p>
+                            <p>Sea Urchin over Rice</p>
                             <p>Assorted Fish Roe over Rice</p>
                             <p>Sliced Raw Fish over Rice</p>
-                            <p>Kimchi over Rice in Hot Stone Pot</p>
                         </div>
                         <div className="menuColumn">
+                            <p>$12.95</p>
                             <p>$15.95</p>
-                            <p>$11.95</p>
-                            <p>$14.95</p>
+                            <p>$12.95</p>
+                            <p>$17.95</p>
+                            <p>$32.95</p>
                             <p>$15.95</p>
+                            <p>$22.95</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="menuSingleRow">
+                <div className="menuSingleSectionTitle">
+                    <h2>Broiled Fish Dishes</h2>
+                    <div className="menuSection">
+                        <div className="menuColumn">
+                            <p>Broiled Salmon with Tempura</p>
+                            <p>Broiled Freshwater Eel</p>
+                            <p>Broiled Atka Mackerel</p>
+                        </div>
+                        <div className="menuColumn">
+                            <p>$16.95</p>
                             <p>$19.95</p>
-                            <p>$15.95</p>
-                            <p>$19.95</p>
-                            <p>$14.95</p>
+                            <p>$18.95</p>
                         </div>
                     </div>
                 </div>
@@ -78,7 +94,7 @@ function DinnerMenuContent() {
                         </div>
                         <div className="menuColumn">
                             <div className="menuSpacing">
-                                <p>$28.95</p>
+                                <p>$29.95</p>
                                 <div className="br">
                                     <p><br /></p>
                                 </div>

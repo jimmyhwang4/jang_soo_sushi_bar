@@ -14,16 +14,14 @@ function MenuContent() {
                             <p>Oyster (6 pieces)</p>
                             <p>Shrimp Tempura (M)</p>
                             <p>Shrimp Tempura (L)</p>
-                            <p>Pan Fried Spicy Squid</p>
                             <p>Seafood Pancake</p>
                             <p>Corn Cheese</p>
                         </div>
                         <div className="menuColumn">
                             <p>$11.95</p>
-                            <p>$17.95</p>
-                            <p>$22.95</p>
+                            <p>$15.95</p>
+                            <p>$24.95</p>
                             <p>$18.95</p>
-                            <p>$14.95</p>
                             <p>$7.95</p>
                         </div>
                     </div>
@@ -34,16 +32,18 @@ function MenuContent() {
                     </div>
                     <div className="menuSection">
                         <div className="menuColumn">
-                            <p>Buckwheat Cold Noodle</p>
+                            <p>Cold Soba Noodle</p>
                             <p>Shrimp Tempura Udon</p>
                             <p>Japanese Pot Noodle</p>
-                            <p>Bean Curd (Yubu) Udon</p>
+                            <p>Udon with Chicken</p>
+                            <p>Udon with Beef</p>
                         </div>
                         <div className="menuColumn">
+                            <p>$12.95</p>
+                            <p>$14.95</p>
                             <p>$10.95</p>
-                            <p>$11.95</p>
-                            <p>$9.95</p>
-                            <p>$10.95</p>
+                            <p>$13.95</p>
+                            <p>$14.95</p>
                         </div>
                     </div>
                 </div>
@@ -52,13 +52,12 @@ function MenuContent() {
             <div className="menuRow">
                 <div className="menuSectionTitle">
                     <div className="mobileTitle">
-                        <h2>Hot Soup</h2>
+                        <h2>Hot Soups</h2>
                     </div>
                     <div className="menuSection">
                         <div className="menuColumn">
                             <p>Combination Fish Soup (Spicy)</p>
                             <p>Fish Roe Casserole</p>
-                            <p>Squid Casserole</p>
                             <p>Codfish Soup (Mild)</p>
                             <p>Codfish Soup (Spicy)</p>
                             <p>Fish Intestine Soup</p>
@@ -69,24 +68,6 @@ function MenuContent() {
                             <p>$18.95</p>
                             <p>$18.95</p>
                             <p>$18.95</p>
-                            <p>$18.95</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="menuSectionTitle">
-                    <div className="mobileTitle">
-                        <h2>Broiled Fish</h2>
-                    </div>
-                    <div className="menuSection">
-                        <div className="menuColumn">
-                            <p>Broiled Salmon with Tempura</p>
-                            <p>Broiled Fresh Water Eel</p>
-                            <p>Broiled Atka Mackerel</p>
-                        </div>
-                        <div className="menuColumn">
-                            <p>$19.95</p>
-                            <p>$19.95</p>
-                            <p>$16.95</p>
                         </div>
                     </div>
                 </div>
@@ -120,8 +101,8 @@ function MenuContent() {
                             <p>crab mix, eel, cucumber, avocado, eel sauce</p>
                             <p>deep fried salmon, crab mix, avocado, eel, eel sauce</p>
                             <p>baked salmon, california roll, eel sauce</p>
-                            <p>baked white fish, california roll, eel sauce</p>
-                            <p>shrimp tempura, crab mix, white fish, ponzu</p>
+                            <p>baked albacore, california roll, eel sauce</p>
+                            <p>shrimp tempura, crab mix, albacore, ponzu</p>
                             <p>deep fried spicy tuna, ponzu, eel sauce</p>
                             <p>crab mix, spicy tuna, tuna, vegetables, ginger sauce</p>
                             <p>shrimp tempura, spicy tuna, tuna, eel sauce, cream sauce</p>
@@ -135,23 +116,57 @@ function MenuContent() {
                             <p>sushi shrimp, crunch roll</p>
                         </div>
                         <div className="menuColumn">
+                            <p>$12.00</p>
+                            <p>$14.00</p>
+                            <p>$13.00</p>
+                            <p>$12.00</p>
+                            <p>$12.00</p>
+                            <p>$13.00</p>
+                            <p>$10.00</p>
+                            <p>$15.00</p>
+                            <p>$14.00</p>
                             <p>$10.50</p>
+                            <p>$13.00</p>
+                            <p>$14.00</p>
+                            <p>$11.50</p>
                             <p>$12.50</p>
-                            <p>$11.50</p>
-                            <p>$10.50</p>
-                            <p>$10.50</p>
-                            <p>$11.50</p>
-                            <p>$8.50</p>
+                            <p>$12.50</p>
                             <p>$13.50</p>
-                            <p>$12.50</p>
-                            <p>$8.95</p>
-                            <p>$11.50</p>
-                            <p>$12.50</p>
-                            <p>$9.95</p>
-                            <p>$10.95</p>
-                            <p>$10.95</p>
-                            <p>$11.95</p>
-                            <p>$11.95</p>
+                            <p>$13.50</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="menuRow">
+                <div className="menuSectionTitle">
+                    <div className="mobileTitle">
+                        <h2>Live Dishes</h2>
+                    </div>
+                    <div className="menuSection">
+                        <div className="menuColumn">
+                            <p>Live Sweet Shrimp (Seasonal)</p>
+                            <p>Live Octopus</p>
+                        </div>
+                        <div className="menuColumn">
+                            <p>MP</p>
+                            <p>MP</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="menuRow">
+                <div className="menuSectionTitle">
+                    <div className="mobileTitle">
+                        <h2>Sushi Bar Special</h2>
+                    </div>
+                    <div className="menuSection">
+                        <div className="menuColumn">
+                            <p>Omakase (per person)</p>
+                        </div>
+                        <div className="menuColumn">
+                            <p>$90.00</p>
                         </div>
                     </div>
                 </div>
@@ -196,6 +211,13 @@ function MenuContent() {
                     <div className="menuSection">
                         <div className="menuColumn">
                             <div className="menuSpacing">
+                                <p>Live Flounder</p>
+                                <div className="br">
+                                    <p><br /></p>
+                                    <p><br /></p>
+                                </div>
+                            </div>
+                            <div className="menuSpacing">
                                 <p>Small</p>
                                 <div className="br">
                                     <p><br /></p>
@@ -212,41 +234,76 @@ function MenuContent() {
                             <div className="menuSpacing">
                                 <p>Large</p>
                             </div>
+                            <div className="menuSpacing">
+                                <p>X-Large</p>
+                                <div className="br">
+                                    <p><br /></p>
+                                    <p><br /></p>
+                                </div>
+                            </div>
                         </div>
                         <div className="menuColumnDescription">
                             <div className="menuSpacing">
+                                <p><br /></p>
+                                <p><br /></p>
+                                <p><br /></p>
+                            </div>
+                            <div className="menuSpacing">
                                 <p>live halibut, sashimi salad, abalone, seafood platter,</p>
                                 <p>assorted tempura, spicy fish soup</p>
-                                <p>* [ CHOOSE 1 ] Soju, Beer, or California Roll *</p>
+                                <p>* [ CHOOSE 1 ] Soju, Beer, or Roll *</p>
                             </div>
                             <div className="menuSpacing">
                                 <p>live halibut, sashimi salad, abalone, seafood platter,</p>
-                                <p>assorted tempura, spicy fish soup, uni</p>
-                                <p>* [ CHOOSE 1 ] Soju, Beer, or California Roll *</p>
+                                <p>assorted tempura, spicy fish soup</p>
+                                <p>* [ CHOOSE 1 ] Soju, Beer, or Roll *</p>
                             </div>
                             <div className="menuSpacing">
                                 <p>live halibut, sashimi salad, abalone, seafood platter,</p>
-                                <p>assorted tempura, spicy fish soup, uni, fatty tuna</p>
-                                <p>* [ CHOOSE 1 ] Soju, Beer, or California Roll *</p>
+                                <p>assorted tempura, spicy fish soup</p>
+                                <p>* [ CHOOSE 1 ] Soju, Beer, or Roll *</p>
+                            </div>
+                            <div className="menuSpacing">
+                                <p>live halibut, sashimi salad, abalone, seafood platter,</p>
+                                <p>assorted tempura, spicy fish soup</p>
+                                <p>* [ CHOOSE 1 ] Soju, Beer, or Roll *</p>
                             </div>
                         </div>
                         <div className="menuColumn">
                             <div className="menuSpacing">
-                                <p>$110</p>
+                                <p>$99.95</p>
                                 <div className="br">
                                     <p><br /></p>
                                     <p><br /></p>
                                 </div>
                             </div>
                             <div className="menuSpacing">
-                                <p>$130</p>
+                                <p>$115</p>
                                 <div className="br">
                                     <p><br /></p>
                                     <p><br /></p>
                                 </div>
                             </div>
                             <div className="menuSpacing">
-                                <p>$160</p>
+                                <p>$145</p>
+                                <div className="br">
+                                    <p><br /></p>
+                                    <p><br /></p>
+                                </div>
+                            </div>
+                            <div className="menuSpacing">
+                                <p>$170</p>
+                                <div className="br">
+                                    <p><br /></p>
+                                    <p><br /></p>
+                                </div>
+                            </div>
+                            <div className="menuSpacing">
+                                <p>$200</p>
+                                <div className="br">
+                                    <p><br /></p>
+                                    <p><br /></p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -302,56 +359,56 @@ function MenuContent() {
                             </div>
                             <div className="menuSpacing">
                                 <p>live halibut, sashimi combo, sashimi salad, seafood platter,</p>
-                                <p>assorted tempura, spicy fish soup, abalone</p>
+                                <p>assorted tempura, spicy fish soup</p>
                                 <p>* [ CHOOSE 1 ] Soju, Beer, or California Roll *</p>
                             </div>
                             <div className="menuSpacing">
                                 <p>live halibut, sashimi combo, sashimi salad, seafood platter,</p>
-                                <p>assorted tempura, spicy fish soup, abalone, uni</p>
+                                <p>assorted tempura, spicy fish soup, abalone, sea urchin</p>
                                 <p>* [ CHOOSE 1 ] Soju, Beer, or California Roll *</p>
                             </div>
                             <div className="menuSpacing">
                                 <p>live halibut, sashimi combo, sashimi salad, seafood platter,</p>
-                                <p>assorted tempura, spicy fish soup, abalone, uni, fatty tuna</p>
+                                <p>assorted tempura, spicy fish soup, abalone, sea urchin, fatty tuna</p>
                                 <p>* [ CHOOSE 1 ] Soju, Beer, or California Roll *</p>
                             </div>
                             <div className="menuSpacing">
                                 <p>½ live halibut, ½ sashimi combo, sashimi salad, seafood platter,</p>
-                                <p>assorted tempura, spicy fish soup, two abalones, uni, fatty tuna</p>
+                                <p>assorted tempura, spicy fish soup, two abalones, sea urchin, fatty tuna</p>
                                 <p>* [ CHOOSE 1 ] Soju, Beer, or California Roll *</p>
                             </div>
                         </div>
                         <div className="menuColumn">
                             <div className="menuSpacing">
-                                <p>$85</p>
+                                <p>$90</p>
                                 <div className="br">
                                     <p><br /></p>
                                     <p><br /></p>
                                 </div>
                             </div>
                             <div className="menuSpacing">
-                                <p>$110</p>
+                                <p>$115</p>
                                 <div className="br">
                                     <p><br /></p>
                                     <p><br /></p>
                                 </div>
                             </div>
                             <div className="menuSpacing">
-                                <p>$130</p>
+                                <p>$145</p>
                                 <div className="br">
                                     <p><br /></p>
                                     <p><br /></p>
                                 </div>
                             </div>
                             <div className="menuSpacing">
-                                <p>$160</p>
+                                <p>$170</p>
                                 <div className="br">
                                     <p><br /></p>
                                     <p><br /></p>
                                 </div>
                             </div>
                             <div className="menuSpacing">
-                                <p>$180</p>
+                                <p>$200</p>
                                 <div className="br">
                                     <p><br /></p>
                                     <p><br /></p>

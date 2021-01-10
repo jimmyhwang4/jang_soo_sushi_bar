@@ -69,7 +69,9 @@ function DrinksMenuContent() {
                             <p>OB</p>
                             <p>Asahi Sapporo (L)</p>
                             <p>Asahi Sapporo (M)</p>
-                            <p>Coors Light</p>
+                            <p>Coors Light (S)</p>
+                            <p>Sapporo Draft (Pitcher)</p>
+                            <p>Sapporo Draft (Glass)</p>
                         </div>
                         <div className="menuColumn">
                             <p>$6.00</p>
@@ -79,6 +81,8 @@ function DrinksMenuContent() {
                             <p>$7.00</p>
                             <p>$4.00</p>
                             <p>$4.00</p>
+                            <p>$12.99</p>
+                            <p>$2.99</p>
                         </div>
                     </div>
                 </div>
