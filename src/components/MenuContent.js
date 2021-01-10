@@ -141,7 +141,7 @@ function MenuContent() {
             <div className="menuRow">
                 <div className="menuSectionTitle">
                     <div className="mobileTitle">
-                        <h2>Live Dishes</h2>
+                        <h2>Live Seafood</h2>
                     </div>
                     <div className="menuSection">
                         <div className="menuColumn">
@@ -154,9 +154,6 @@ function MenuContent() {
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <div className="menuRow">
                 <div className="menuSectionTitle">
                     <div className="mobileTitle">
                         <h2>Sushi Bar Special</h2>
@@ -212,10 +209,6 @@ function MenuContent() {
                         <div className="menuColumn">
                             <div className="menuSpacing">
                                 <p>Live Flounder</p>
-                                <div className="br">
-                                    <p><br /></p>
-                                    <p><br /></p>
-                                </div>
                             </div>
                             <div className="menuSpacing">
                                 <p>Small</p>
@@ -233,6 +226,10 @@ function MenuContent() {
                             </div>
                             <div className="menuSpacing">
                                 <p>Large</p>
+                                <div className="br">
+                                    <p><br /></p>
+                                    <p><br /></p>
+                                </div>
                             </div>
                             <div className="menuSpacing">
                                 <p>X-Large</p>
@@ -244,8 +241,6 @@ function MenuContent() {
                         </div>
                         <div className="menuColumnDescription">
                             <div className="menuSpacing">
-                                <p><br /></p>
-                                <p><br /></p>
                                 <p><br /></p>
                             </div>
                             <div className="menuSpacing">
@@ -272,10 +267,6 @@ function MenuContent() {
                         <div className="menuColumn">
                             <div className="menuSpacing">
                                 <p>$99.95</p>
-                                <div className="br">
-                                    <p><br /></p>
-                                    <p><br /></p>
-                                </div>
                             </div>
                             <div className="menuSpacing">
                                 <p>$115</p>
