@@ -75,7 +75,7 @@ function MenuContent() {
 
             <div className="menuSingleRow">
                 <div className="menuSingleSectionTitle">
-                    <h2>Special Rolls (30% OFF!)</h2>
+                    <h2>Special Rolls (30% OFF FOR TOGO ONLY)</h2>
                     <div className="menuSection">
                         <div className="menuColumn">
                             <p>Crunch Dragon Roll</p>
@@ -116,23 +116,23 @@ function MenuContent() {
                             <p>sushi shrimp, crunch roll</p>
                         </div>
                         <div className="menuColumn">
-                            <p>$̶1̶2̶.̶0̶0̶  → $8.40</p>
-                            <p>$̶1̶4̶.̶0̶0̶  → $9.80</p>
-                            <p>$̶1̶3̶.̶0̶0̶  → $9.10</p>
-                            <p>$̶1̶2̶.̶0̶0̶  → $8.40</p>
-                            <p>$̶1̶2̶.̶0̶0̶  → $8.40</p>
-                            <p>$̶1̶3̶.̶0̶0̶  → $9.10</p>
-                            <p>$̶1̶0̶.̶0̶0̶  → $7.00</p>
-                            <p>$̶1̶5̶.̶0̶0̶  → $10.50</p>
-                            <p>$̶1̶4̶.̶0̶0̶  → $9.80</p>
-                            <p>$̶1̶0̶.̶5̶0̶  → $7.35</p>
-                            <p>$̶1̶3̶.̶0̶0̶  → $9.10</p>
-                            <p>$̶1̶4̶.̶0̶0̶  → $9.80</p>
-                            <p>$̶1̶1̶.̶5̶0̶  → $8.05</p>
-                            <p>$̶1̶2̶.̶5̶0̶  → $8.75</p>
-                            <p>$̶1̶2̶.̶5̶0̶  → $8.75</p>
-                            <p>$̶1̶3̶.̶5̶0̶  → $9.45</p>
-                            <p>$̶1̶3̶.̶5̶0̶  → $9.45</p>
+                            <p>$12.00</p>
+                            <p>$14.00</p>
+                            <p>$13.00</p>
+                            <p>$12.00</p>
+                            <p>$12.00</p>
+                            <p>$13.00</p>
+                            <p>$10.00</p>
+                            <p>$15.00</p>
+                            <p>$14.00</p>
+                            <p>$10.50</p>
+                            <p>$13.00</p>
+                            <p>$14.00</p>
+                            <p>$11.50</p>
+                            <p>$12.50</p>
+                            <p>$12.50</p>
+                            <p>$13.50</p>
+                            <p>$13.50</p>
                         </div>
                     </div>
                 </div>

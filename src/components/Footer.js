@@ -44,16 +44,13 @@ function Footer() {
                 <div className="footerColumn">
                     <Hours />
                 </div>
-                <div className="footerColumn">
+                <div className="footerColumn hide">
                     <Location />
                 </div>
             </div>
             <div className="FooterCredits">
                 <div className="FooterCreditsText">
                     <p>© 2020 JANG SOO CORPORATION | JANG SOO SUSHI BAR</p>
-                </div>
-                <div className="FooterCreditsText">
-                    <p>DESIGNED & DEVELOPED BY JIMMY HWANG</p>
                 </div>
             </div>
         </div>

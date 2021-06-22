@@ -8,23 +8,23 @@ function Hours() {
             </div>
             <div className="hoursDay">
                 <p>MON</p>
-                <p>11:30AM - 9:30PM</p>
+                <p>11:30AM - 3PM, 4PM - 9:30PM</p>
             </div>
             <div className="hoursDay">
                 <p>TUE</p>
-                <p>11:30AM - 9:30PM</p>
+                <p>11:30AM - 3PM, 4PM - 9:30PM</p>
             </div>
             <div className="hoursDay">
                 <p>WED</p>
-                <p>11:30AM - 9:30PM</p>
+                <p>11:30AM - 3PM, 4PM - 9:30PM</p>
             </div>
             <div className="hoursDay">
                 <p>THU</p>
-                <p>11:30AM - 9:30PM</p>
+                <p>11:30AM - 3PM, 4PM - 9:30PM</p>
             </div>
             <div className="hoursDay">
                 <p>FRI</p>
-                <p>11:30AM - 9:30PM</p>
+                <p>11:30AM - 3PM, 4PM - 9:30PM</p>
             </div>
             <div className="hoursDay">
                 <p>SAT</p>

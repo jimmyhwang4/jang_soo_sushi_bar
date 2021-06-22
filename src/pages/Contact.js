@@ -9,7 +9,7 @@ function Contact() {
                         <h2>CONTACT US</h2>
                     </div>
                     <div className="contactText">
-                        <p>To make a reservation or to order for take-out, please call:</p>
+                        <p>To reach us by phone, please call us at:</p>
                         <div className="yellowText">
                             <a href="tel:562-924-2498">(562) 924-2498</a>
                         </div>

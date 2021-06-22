@@ -16,9 +16,9 @@ function Header() {
                         <div className="HeaderClicker">
                             <a href="/gallery">GALLERY</a>
                         </div>
-                        <div className="HeaderClicker">
+                        {/* <div className="HeaderClicker">
                             <a href="/covid-19">COVID-19</a>
-                        </div>
+                        </div> */}
                         <div className="HeaderClicker">
                             <a href="/contact_us">CONTACT US</a>
                         </div>
@@ -27,7 +27,7 @@ function Header() {
             </div>
 
             <div className="newsHeader">
-                <p>30% OFF ALL SPECIAL ROLLS! Please call (562) 924-2498 to order.</p>
+                <p>30% OFF ALL SPECIAL ROLLS FOR TOGO ONLY! Call (562) 924-2498 to order.</p>
             </div>
             
         </div>
