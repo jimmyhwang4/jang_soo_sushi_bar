@@ -23,7 +23,7 @@ function DinnerMenuContent() {
                         </div>
                         <div className="menuColumn">
                             <div className="menuSpacing">
-                                <p>$18.95</p>
+                                <p>$23.95</p>
                             </div>
                         </div>
                     </div>
@@ -44,13 +44,13 @@ function DinnerMenuContent() {
                             <p>Sliced Raw Fish over Rice</p>
                         </div>
                         <div className="menuColumn">
-                            <p>$12.95</p>
-                            <p>$15.95</p>
-                            <p>$12.95</p>
-                            <p>$17.95</p>
+                            <p>$16.95</p>
+                            <p>$16.95</p>
+                            <p>$13.95</p>
+                            <p>$19.95</p>
                             <p>$32.95</p>
-                            <p>$15.95</p>
-                            <p>$22.95</p>
+                            <p>$17.95</p>
+                            <p>$24.95</p>
                         </div>
                     </div>
                 </div>
@@ -66,9 +66,9 @@ function DinnerMenuContent() {
                             <p>Broiled Atka Mackerel</p>
                         </div>
                         <div className="menuColumn">
-                            <p>$16.95</p>
+                            <p>$17.95</p>
+                            <p>$21.95</p>
                             <p>$19.95</p>
-                            <p>$18.95</p>
                         </div>
                     </div>
                 </div>
@@ -94,7 +94,7 @@ function DinnerMenuContent() {
                         </div>
                         <div className="menuColumn">
                             <div className="menuSpacing">
-                                <p>$29.95</p>
+                                <p>$34.95</p>
                                 <div className="br">
                                     <p><br /></p>
                                 </div>

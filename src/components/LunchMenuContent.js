@@ -10,24 +10,10 @@ function LunchMenuContent() {
                     <div className="menuSection">
                         <div className="menuColumn">
                             <div className="menuSpacing">
-                                <p>Lunch Regular</p>
-                                <div className="br">
-                                    <p><br /></p>
-                                    <p><br /></p>
-                                    <p><br /></p>
-                                </div>
-                            </div>
-                            <div className="menuSpacing">
-                                <p>Lunch Special</p>
+                                <p>Lunch</p>
                             </div>
                         </div>
                         <div className="menuColumnDescription">
-                            <div className="menuSpacing">
-                                <p>* [ CHOOSE 1 ] Salmon Teriyaki, Beef Teriyaki, Chicken Teriyaki,</p>
-                                <p>Tonkatsu, Shrimp Tempura, or Grilled Mackerel *</p>
-                                <p>includes 3 pieces of sashimi, 2 pieces of sushi, 2 pieces of</p>
-                                <p>california roll, tempura, miso soup, rice, and assorted side dishes</p>
-                            </div>
                             <div className="menuSpacing">
                                 <p>* [ CHOOSE 1 ] Salmon Teriyaki, Beef Teriyaki, Chicken Teriyaki,</p>
                                 <p>Tonkatsu, Shrimp Tempura, or Grilled Mackerel *</p>
@@ -37,15 +23,7 @@ function LunchMenuContent() {
                         </div>
                         <div className="menuColumn">
                             <div className="menuSpacing">
-                                <p>$13.95</p>
-                                <div className="br">
-                                    <p><br /></p>
-                                    <p><br /></p>
-                                    <p><br /></p>
-                                </div>
-                            </div>
-                            <div className="menuSpacing">
-                                <p>$17.95</p>
+                                <p>$20.95</p>
                             </div>
                         </div>
                     </div>
@@ -67,13 +45,13 @@ function LunchMenuContent() {
                                 <p>4pc Sushi & Fish Roe</p>
                             </div>
                             <div className="menuColumn">
-                                <p>$13.95</p>
-                                <p>$14.95</p>
-                                <p>$22.95</p>
-                                <p>$19.95</p>
-                                <p>$18.95</p>
-                                <p>$13.95</p>
-                                <p>$13.95</p>
+                                <p>$16.95</p>
+                                <p>$17.95</p>
+                                <p>$27.95</p>
+                                <p>$23.95</p>
+                                <p>$21.95</p>
+                                <p>$15.95</p>
+                                <p>$16.95</p>
                             </div>
                         </div>
                     </div>
@@ -95,13 +73,13 @@ function LunchMenuContent() {
                                 <p>4 pieces of Sushi & mini Assorted Fish Roe over Rice</p>
                             </div>
                             <div className="menuColumn">
-                                <p>$13.95</p>
-                                <p>$14.95</p>
-                                <p>$22.95</p>
-                                <p>$19.95</p>
-                                <p>$18.95</p>
-                                <p>$13.95</p>
-                                <p>$13.95</p>
+                                <p>$16.95</p>
+                                <p>$17.95</p>
+                                <p>$27.95</p>
+                                <p>$23.95</p>
+                                <p>$21.95</p>
+                                <p>$15.95</p>
+                                <p>$16.95</p>
                             </div>
                         </div>
                     </div>
@@ -126,16 +104,16 @@ function LunchMenuContent() {
                                 <p>Soba & Tonkatsu</p>
                             </div>
                             <div className="menuColumn">
-                                <p>$14.95</p>
-                                <p>$14.95</p>
-                                <p>$14.95</p>
-                                <p>$14.95</p>
-                                <p>$14.95</p>
-                                <p>$15.95</p>
-                                <p>$15.95</p>
-                                <p>$15.95</p>
-                                <p>$15.95</p>
-                                <p>$15.95</p>
+                                <p>$16.95</p>
+                                <p>$16.95</p>
+                                <p>$16.95</p>
+                                <p>$16.95</p>
+                                <p>$16.95</p>
+                                <p>$17.95</p>
+                                <p>$17.95</p>
+                                <p>$17.95</p>
+                                <p>$17.95</p>
+                                <p>$17.95</p>
                             </div>
                         </div>
                     </div>
@@ -160,16 +138,16 @@ function LunchMenuContent() {
                                 <p>Cold Soba Noodle & Tonkatsu</p>
                             </div>
                             <div className="menuColumn">
-                                <p>$14.95</p>
-                                <p>$14.95</p>
-                                <p>$14.95</p>
-                                <p>$14.95</p>
-                                <p>$14.95</p>
-                                <p>$15.95</p>
-                                <p>$15.95</p>
-                                <p>$15.95</p>
-                                <p>$15.95</p>
-                                <p>$15.95</p>
+                                <p>$16.95</p>
+                                <p>$16.95</p>
+                                <p>$16.95</p>
+                                <p>$16.95</p>
+                                <p>$16.95</p>
+                                <p>$17.95</p>
+                                <p>$17.95</p>
+                                <p>$17.95</p>
+                                <p>$17.95</p>
+                                <p>$17.95</p>
                             </div>
                         </div>
                     </div>
@@ -178,9 +156,10 @@ function LunchMenuContent() {
 
             <div className="menuSingleRow">
                 <div className="menuSingleSectionTitle">
-                    <h2>Rice Bowls</h2>
+                    <h2>Dishes with Rice</h2>
                     <div className="menuSection">
                         <div className="menuColumn">
+                            <p>Stir-fried Squid</p>
                             <p>Tonkatsu Plate</p>
                             <p>Sashimi Salad with Rice</p>
                             <p>Porridge with Abalone</p>
@@ -190,13 +169,14 @@ function LunchMenuContent() {
                             <p>Sliced Raw Fish over Rice</p>
                         </div>
                         <div className="menuColumn">
-                            <p>$12.95</p>
-                            <p>$13.95</p>
-                            <p>$11.95</p>
-                            <p>$15.95</p>
-                            <p>$32.95</p>
+                            <p>$29.95</p>
+                            <p>$16.95</p>
                             <p>$14.95</p>
-                            <p>$19.95</p>
+                            <p>$13.95</p>
+                            <p>$18.95</p>
+                            <p>$32.95</p>
+                            <p>$15.95</p>
+                            <p>$22.95</p>
                         </div>
                     </div>
                 </div>
@@ -222,7 +202,7 @@ function LunchMenuContent() {
                         </div>
                         <div className="menuColumn">
                             <div className="menuSpacing">
-                                <p>$27.95</p>
+                                <p>$32.95</p>
                                 <div className="br">
                                     <p><br /></p>
                                 </div>

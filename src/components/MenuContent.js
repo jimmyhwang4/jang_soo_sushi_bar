@@ -18,11 +18,11 @@ function MenuContent() {
                             <p>Corn Cheese</p>
                         </div>
                         <div className="menuColumn">
-                            <p>$11.95</p>
+                            <p>$13.95</p>
                             <p>$15.95</p>
-                            <p>$24.95</p>
+                            <p>$24.75</p>
                             <p>$18.95</p>
-                            <p>$7.95</p>
+                            <p>$8.95</p>
                         </div>
                     </div>
                 </div>
@@ -42,8 +42,8 @@ function MenuContent() {
                             <p>$12.95</p>
                             <p>$14.95</p>
                             <p>$10.95</p>
-                            <p>$13.95</p>
                             <p>$14.95</p>
+                            <p>$15.95</p>
                         </div>
                     </div>
                 </div>
@@ -63,11 +63,11 @@ function MenuContent() {
                             <p>Fish Intestine Soup</p>
                         </div>
                         <div className="menuColumn">
-                            <p>$18.95</p>
-                            <p>$18.95</p>
-                            <p>$18.95</p>
-                            <p>$18.95</p>
-                            <p>$18.95</p>
+                            <p>$20.95</p>
+                            <p>$20.95</p>
+                            <p>$20.95</p>
+                            <p>$20.95</p>
+                            <p>$20.95</p>
                         </div>
                     </div>
                 </div>
@@ -163,7 +163,7 @@ function MenuContent() {
                             <p>Omakase (per person)</p>
                         </div>
                         <div className="menuColumn">
-                            <p>$90.00</p>
+                            <p>$100</p>
                         </div>
                     </div>
                 </div>
@@ -266,31 +266,31 @@ function MenuContent() {
                         </div>
                         <div className="menuColumn">
                             <div className="menuSpacing">
-                                <p>$99.95</p>
+                                <p>MP</p>
                             </div>
                             <div className="menuSpacing">
-                                <p>$115</p>
+                                <p>$120</p>
                                 <div className="br">
                                     <p><br /></p>
                                     <p><br /></p>
                                 </div>
                             </div>
                             <div className="menuSpacing">
-                                <p>$145</p>
+                                <p>$155</p>
                                 <div className="br">
                                     <p><br /></p>
                                     <p><br /></p>
                                 </div>
                             </div>
                             <div className="menuSpacing">
-                                <p>$170</p>
+                                <p>$180</p>
                                 <div className="br">
                                     <p><br /></p>
                                     <p><br /></p>
                                 </div>
                             </div>
                             <div className="menuSpacing">
-                                <p>$200</p>
+                                <p>$220</p>
                                 <div className="br">
                                     <p><br /></p>
                                     <p><br /></p>
@@ -371,35 +371,35 @@ function MenuContent() {
                         </div>
                         <div className="menuColumn">
                             <div className="menuSpacing">
-                                <p>$90</p>
+                                <p>$95</p>
                                 <div className="br">
                                     <p><br /></p>
                                     <p><br /></p>
                                 </div>
                             </div>
                             <div className="menuSpacing">
-                                <p>$115</p>
+                                <p>$120</p>
                                 <div className="br">
                                     <p><br /></p>
                                     <p><br /></p>
                                 </div>
                             </div>
                             <div className="menuSpacing">
-                                <p>$145</p>
+                                <p>$155</p>
                                 <div className="br">
                                     <p><br /></p>
                                     <p><br /></p>
                                 </div>
                             </div>
                             <div className="menuSpacing">
-                                <p>$170</p>
+                                <p>$180</p>
                                 <div className="br">
                                     <p><br /></p>
                                     <p><br /></p>
                                 </div>
                             </div>
                             <div className="menuSpacing">
-                                <p>$200</p>
+                                <p>$220</p>
                                 <div className="br">
                                     <p><br /></p>
                                     <p><br /></p>
