@@ -27,7 +27,7 @@ function Header() {
             </div>
 
             <div className="newsHeader">
-                <p>30% OFF ALL SPECIAL ROLLS FOR TOGO ONLY! Call (562) 924-2498 to order.</p>
+                <p>Call (562) 924-2498 to order.</p>
             </div>
             
         </div>

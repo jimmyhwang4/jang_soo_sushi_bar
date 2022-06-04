@@ -75,7 +75,7 @@ function MenuContent() {
 
             <div className="menuSingleRow">
                 <div className="menuSingleSectionTitle">
-                    <h2>Special Rolls (30% OFF FOR TOGO ONLY)</h2>
+                    <h2>Special Rolls</h2>
                     <div className="menuSection">
                         <div className="menuColumn">
                             <p>Crunch Dragon Roll</p>
