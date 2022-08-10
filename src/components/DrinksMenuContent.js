@@ -34,9 +34,9 @@ function DrinksMenuContent() {
                             <p>Cup</p>
                         </div>
                         <div className="menuColumn">
-                            <p>$10</p>
-                            <p>$5</p>
-                            <p>$10</p>
+                            <p>$12</p>
+                            <p>$6</p>
+                            <p>$12</p>
                         </div>
                     </div>
                 </div>
@@ -50,7 +50,7 @@ function DrinksMenuContent() {
                             <p>Glass</p>
                         </div>
                         <div className="menuColumn">
-                            <p>$6.00</p>
+                            <p>$8.00</p>
                         </div>
                     </div>
                 </div>
@@ -95,8 +95,8 @@ function DrinksMenuContent() {
                             <p>$7.00</p>
                             <p>$5.00</p>
                             <p>$5.00</p>
-                            <p>$12.99</p>
-                            <p>$2.99</p>
+                            <p>$20.00</p>
+                            <p>$3.99</p>
                         </div>
                     </div>
                 </div>
