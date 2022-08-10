@@ -34,7 +34,7 @@ function MenuContent() {
                         <div className="menuColumn">
                             <p>Cold Soba Noodle</p>
                             <p>Shrimp Tempura Udon</p>
-                            <p>Japanese Pot Noodle</p>
+                            <p>Japanese Pot Udon</p>
                             <p>Udon with Chicken</p>
                             <p>Udon with Beef</p>
                         </div>
